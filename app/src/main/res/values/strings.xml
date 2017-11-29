@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FlashTrip</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="signin">Sign in</string>
+    <string name="login">Login</string>
+    <string name="slogan">The flash travel guide</string>
+    <string name="slogan2">Don\'t know what spot to visit? FlashTrip!</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="ap1">Last name 1</string>
+    <string name="ap2">Last name 2</string>
+    <string name="email">e-mail</string>
+    <string name="password">Password</string>
+    <string name="passwordConfirm">Confirm password</string>
+    <string name="register">Register</string>
+    <string name="no_match_password">The password and confirmation password do not match</string>
+    <string name="required_fields">All fields are required</string>
+    <string name="user_already_exists">User already exists</string>
+    <string name="signing_up">Welcome to FlashTrip! Thanks for signing up</string>
+    <string name="login_successful">Login successful</string>
+    <string name="login_unsuccessful">Username or password is incorrect</string>
+</resources>

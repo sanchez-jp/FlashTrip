@@ -1,0 +1,200 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:nestedScrollingEnabled="false"
+    tools:context="com.juanpedrosanchez.flashtrip.UserFormFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:nestedScrollingEnabled="true">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="top"
+                android:isScrollContainer="false"
+                android:keepScreenOn="false"
+                android:orientation="vertical"
+                android:paddingEnd="30dp"
+                android:paddingStart="30dp"
+                android:scrollbarAlwaysDrawVerticalTrack="false"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+                <TextView
+                    android:id="@+id/tv_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/username"
+                    android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                    android:textColor="@color/colorAccent" />
+
+                <EditText
+                    android:id="@+id/et_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@android:drawable/editbox_dropdown_dark_frame"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:elegantTextHeight="true"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/colorFooter" />
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name"
+                    android:textAllCaps="false"
+                    android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                    android:textColor="@color/colorAccent" />
+
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@android:drawable/editbox_dropdown_dark_frame"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:elegantTextHeight="true"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/colorFooter" />
+
+                <TextView
+                    android:id="@+id/tv_ap1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ap1"
+                    android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                    android:textColor="@color/colorAccent" />
+
+                <EditText
+                    android:id="@+id/et_ap1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@android:drawable/editbox_dropdown_dark_frame"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:elegantTextHeight="true"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/colorFooter" />
+
+                <TextView
+                    android:id="@+id/tv_ap2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ap2"
+                    android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                    android:textColor="@color/colorAccent" />
+
+                <EditText
+                    android:id="@+id/et_ap2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@android:drawable/editbox_dropdown_dark_frame"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:elegantTextHeight="true"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/colorFooter" />
+
+                <TextView
+                    android:id="@+id/tv_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email"
+                    android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                    android:textColor="@color/colorAccent" />
+
+                <EditText
+                    android:id="@+id/et_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@android:drawable/editbox_dropdown_dark_frame"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:elegantTextHeight="true"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/colorFooter" />
+
+                <TextView
+                    android:id="@+id/tv_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/password"
+                    android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                    android:textColor="@color/colorAccent" />
+
+                <EditText
+                    android:id="@+id/et_pass1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@android:drawable/editbox_dropdown_dark_frame"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:elegantTextHeight="true"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:textColor="@color/colorFooter" />
+
+                <TextView
+                    android:id="@+id/tv_pass2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/passwordConfirm"
+                    android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                    android:textColor="@color/colorAccent" />
+
+                <EditText
+                    android:id="@+id/et_pass2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/editbox_dropdown_dark_frame"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:elegantTextHeight="true"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:textColor="@color/colorFooter" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_register"
+                style="@android:style/Widget.Material.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/register"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>

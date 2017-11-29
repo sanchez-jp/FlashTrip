@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FlashTrip</string>
+    <string name="hello_blank_fragment">Hola FragmentoBlanco</string>
+    <string name="signin">Regístrate</string>
+    <string name="login">Entrar</string>
+    <string name="slogan">La guía para viajes relámpago</string>
+    <string name="slogan2">¿No sabes qué lugar visitar? ¡FlashTrip!</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="name">Nombre</string>
+    <string name="ap1">Primer apellido</string>
+    <string name="ap2">Segundo apellido</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="passwordConfirm">Confirma la contraeña</string>
+    <string name="register">Registro</string>
+    <string name="no_match_password">La contraseña y la confirmación de la contraseña no coinciden</string>
+    <string name="required_fields">Es obligatorio rellenar todos los campos</string>
+    <string name="user_already_exists">El nombre de usuario ya existe</string>
+    <string name="signing_up">¡Bienvenido a FlashTrip! Gracias por registrarte</string>
+    <string name="login_successful">Login correcto</string>
+    <string name="login_unsuccessful">El usuario o la contraseña son incorrectos</string>
+</resources>

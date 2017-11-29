@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Lugares en ciudades españolas (nombres) -->
+    <string-array name="madrid_spot_names">
+        <item>Puerta del Sol</item>
+        <item>Palacio Real</item>
+        <item>Parque del Retiro</item>
+        <item>La Gran Vía</item>
+        <item>Templo de Debod</item>
+    </string-array>
+
+    <string-array name="barcelona_spot_names">
+        <item>La Sagrada Familia</item>
+        <item>Park Güell</item>
+        <item>Las Ramblas</item>
+        <item>Playa de la Barceloneta</item>
+        <item>Torre Agbar</item>
+    </string-array>
+
+    <string-array name="sevilla_spot_names">
+        <item>Plaza de España</item>
+        <item>La Giralda</item>
+        <item>La Seta</item>
+        <item>Real Alcázar</item>
+        <item>Torre del Oro</item>
+    </string-array>
+
+    <string-array name="caceres_spot_names">
+        <item>Plaza de San Jorge</item>
+        <item>Torre Bujaco</item>
+        <item>Arco de la Estrella</item>
+        <item>Palacio de los Golfines</item>
+        <item>Plaza Mayor</item>
+    </string-array>
+
+    <string-array name="valencia_spot_names">
+        <item>Ciudad de las Artes y las Ciencias</item>
+        <item>Mercado Central</item>
+        <item>Museo Fallero</item>
+        <item>Playa de la Malvarrosa</item>
+        <item>Jardín del Turia</item>
+    </string-array>
+
+    <string-array name="santiago_spot_names">
+        <item>Plaza del Obradoiro</item>
+        <item>Ciudad de la Cultura</item>
+        <item>Plaza de abastos</item>
+        <item>Monte do Gozo</item>
+        <item>Ruela de Entrerrúas</item>
+    </string-array>
+
+    <!-- Lugares en ciudades españolas (imagenes) -->
+    <string-array name="madrid_spot_imgs">
+        <item>http://puertadelsol.net/wp-content/uploads/2013/04/2013-April-17-Puerta-del-Sol-Madrid-2104.jpg</item>
+        <item>http://www.spain.info/export/sites/spaininfo/comun/cabeceras/palacio_real_madrid_t2800372a.jpg</item>
+        <item>https://www.viajejet.com/wp-content/viajes/Parque-del-Retiro-Madrid.jpg</item>
+        <item>https://ssl-static-images.ravensburger.com/images/produktseiten/1024/19618_1.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/El_Templo_de_Debod.JPG/1280px-El_Templo_de_Debod.JPG</item>
+    </string-array>
+
+    <string-array name="barcelona_spot_imgs">
+        <item>https://blog.centraldereservas.com/wp-content/uploads/2017/02/Sagrada-familia.-Barcelona-Fotolia_102733741_Subscription_Monthly_M.jpg</item>
+        <item>https://photo980x880.mnstatic.com/329206804c701df567bdcd76e159099a/parque-guell.jpg</item>
+        <item>https://secretolivo.com/wp-content/uploads/2017/08/Sobre-las-Ramblas-de-Barcelona.jpg</item>
+        <item>https://i.ytimg.com/vi/IfLS-tb9sww/maxresdefault.jpg</item>
+        <item>http://www.lavanguardia.com/r/GODO/LV/p4/WebSite/2017/01/12/Recortada/LV_20150131_LV_LOCAL_BARCELONA_D_54426704146-km7-U4133010105123S-992x558@LaVanguardia-Web.jpg</item>
+    </string-array>
+
+    <string-array name="sevilla_spot_imgs">
+        <item>http://crucerosensevilla.com/wp-content/uploads/2015/09/Sevilla4.jpg</item>
+        <item>http://www.spain.info/export/sites/spaininfo/comun/carrusel-recursos/andalucia/giralda-sevilla-39732356-istock.jpg_369272544.jpg</item>
+        <item>http://static.panoramio.com/photos/large/93968738.jpg</item>
+        <item>https://www.nattivus.com/img/actividades/Fotos_actividades_Sevilla/visitas_guiadas/alcazar_sevilla/alcazares-sevilla-A.jpg</item>
+        <item>https://www.viajejet.com/wp-content/viajes/Torre-del-Oro-Sevilla.jpg</item>
+    </string-array>
+
+    <string-array name="caceres_spot_imgs">
+        <item>https://www.extremadura.com/uploads/guide/guide/logo/5577ed866c6f63164a750f00/large_plaza-de-san-jorge.jpeg</item>
+        <item>http://www.quehacerencaceres.es/adm/imagenes/136489127411bujaco3.jpg</item>
+        <item>https://caceres.vectalia.es/wp-content/uploads/sites/6/2016/12/Arco-de-la-Estrella-Caceres-turyhoteles-e1482238513356.jpg</item>
+        <item>https://tesorosdeespana.files.wordpress.com/2016/02/dscf6187.jpg</item>
+        <item>http://www.placonsa.es/assets/rplaconsa/images/uploads/blog/74-dsc_1279.jpg</item>
+    </string-array>
+
+    <string-array name="valencia_spot_imgs">
+        <item>https://www.lovevalencia.com/wp-content/uploads/2011/04/hoteles-cerca-de-la-ciudad-de-las-artes-y-las-ciencias-700x400.jpg</item>
+        <item>https://ob9a8415roh4djoj110c31a1-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/Mercat-Central-Valencia.jpg</item>
+        <item>https://www.saposyprincesas.com/wp-content/uploads/2013/10/museo_fallero.jpg</item>
+        <item>https://defcrpc6rdpo8.cloudfront.net/valencia/up/2015/04/20150420224308022936_playa-malvarrosa-curiosidades-2.jpg</item>
+        <item>https://photo620x400.mnstatic.com/63c51a48c028676c15b58a4dbc99c29d/jardin-del-turia.jpg</item>
+    </string-array>
+
+    <string-array name="santiago_spot_imgs">
+        <item>http://www.santiagoturismo.com/galeria-fotografica/descargar/10/32955/praza-do-obradoiro-2-1.jpg</item>
+        <item>https://c1.staticflickr.com/8/7558/15916946972_af8b0802c6_b.jpg</item>
+        <item>http://www.santiagoturismo.com/files/full/IMG5984ajuste.jpg</item>
+        <item>http://www.abc.es/media/espana/2016/02/20/monte-gozo2--510x286.jpg</item>
+        <item>http://www.iberia.com/ibcomv3/content/guias/SANTIAGODECOMPOSTELA/SANTIAGO_AIRELIBRE_ENTRERRUAS_732X234.JPG</item>
+    </string-array>
+
+
+</resources>

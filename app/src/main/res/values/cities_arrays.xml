@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="city_names">
+        <item>Madrid</item>
+        <item>Barcelona</item>
+        <item>Sevilla</item>
+        <item>Cáceres</item>
+        <item>Valencia</item>
+        <item>Santiago de Compostela</item>
+    </array>
+    
+    <array name="city_images">
+        <item>http://a.jtcstatic.com/upload/auto/flights/cities/600x315/mad.jpg</item>
+        <item>http://u3acalpe.org/wp-content/uploads/2017/06/bacelona.jpg</item>
+        <item>http://www.rumbo.es/hoteles/img/espana/sevilla.jpg</item>
+        <item>http://2.bp.blogspot.com/-2S5YkmJDP6M/Ug6RgArp1fI/AAAAAAAADBE/NGfLlxfWKTg/s1600/C%C3%A1ceres+de+noche.jpg</item>
+        <item>https://www.lovevalencia.com/wp-content/uploads/2012/11/eventos-valencia.jpg</item>
+        <item>https://vivecamino.com/img/im/gal/santiago-de-compostela_7062_p.jpg</item>
+    </array>
+</resources>

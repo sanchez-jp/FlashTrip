@@ -1,0 +1,95 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.juanpedrosanchez.flashtrip.StartFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <SurfaceView
+        android:id="@+id/surface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dip" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cl_start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Para video de fondo -->
+
+        <TextView
+            android:id="@+id/tv_tittle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="53dp"
+            android:fontFamily="@font/baloo_thambi"
+            android:text="FlashTrip"
+            android:textAlignment="center"
+            android:textAppearance="@android:style/TextAppearance.Material.Display3"
+            android:textColor="@color/colorAccent"
+            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_signin"
+            style="@android:style/Widget.Material.Button.Colored"
+            android:layout_width="116dp"
+            android:layout_height="64dp"
+            android:layout_marginBottom="53dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/signin"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btn_login"
+            style="@android:style/Widget.Material.Button.Colored"
+            android:layout_width="116dp"
+            android:layout_height="64dp"
+            android:layout_marginBottom="53dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/login"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_slogan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="172dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/slogan2"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="@color/colorFooter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="134dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="231dp"
+            android:adjustViewBounds="false"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/flashtrip_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tittle" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

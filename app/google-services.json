@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1030838558859",
+    "firebase_url": "https://flashtrip-bb9ff.firebaseio.com",
+    "project_id": "flashtrip-bb9ff",
+    "storage_bucket": "flashtrip-bb9ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030838558859:android:e6724439121fe736",
+        "android_client_info": {
+          "package_name": "com.juanpedrosanchez.flashtrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030838558859-r9kgbmna6rtgmahsgteqgn4i79ispdin.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.juanpedrosanchez.flashtrip",
+            "certificate_hash": "e8b70c487fd44ac84777084ba295c858b7528b1c"
+          }
+        },
+        {
+          "client_id": "1030838558859-f2bg5tn3s9c4plqv3v2ma6gmgohrme3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5rOP1kZG2kUJInIsGX2PZxzzmOWt-TxQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030838558859-f2bg5tn3s9c4plqv3v2ma6gmgohrme3u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

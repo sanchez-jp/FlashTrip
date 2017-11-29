@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="array_datos_usuarios">
+        <item>juan01:Juan Pedro:Sánchez:Álvarez:juampemontijo@gmail.com:123456</item>
+        <item>maria1:María:De La Fuente:Hernández:delafmaria@gmail.com:123456</item>
+        <item>vito01:Victor Alfonso:Saavedra:Caldera:vitochiquitin@yahoo.com:123456</item>
+        <item>1:1:1:1:1:1</item>
+    </array>
+</resources>
