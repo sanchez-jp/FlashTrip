@@ -7,11 +7,19 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <SurfaceView
-        android:id="@+id/surface"
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingTop="10dip" />
+        android:layout_height="match_parent">
+
+        <SurfaceView
+            android:id="@+id/surface"
+            android:layout_width="1.5dp"
+            android:layout_height="1.5dp"
+            android:paddingTop="10dip"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
+    </android.support.constraint.ConstraintLayout>
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/cl_start"
@@ -73,20 +81,20 @@
             android:text="@string/slogan2"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-            android:textColor="@color/colorFooter"
+            android:textColor="@color/colorPrimary"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="134dp"
+            android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_marginBottom="231dp"
             android:adjustViewBounds="false"
             android:cropToPadding="true"
-            android:scaleType="centerCrop"
-            android:src="@mipmap/flashtrip_icon"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/flashtrip_transparent_icon"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
